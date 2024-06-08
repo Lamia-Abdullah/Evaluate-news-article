@@ -1,0 +1,19 @@
+$blue: #1536a0;
+$white: #fff;
+$pink: #f25bb3ef;
+html {
+  scroll-behavior: smooth;
+
+  body {
+    background-color: white;
+
+    .container {
+      min-height: 100vh;
+      color: $white;
+      background: $blue;
+      border-radius: 4em;
+      border: 4px solid $pink;
+      padding-top: 5em;
+    }
+  }
+}

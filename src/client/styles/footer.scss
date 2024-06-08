@@ -1,0 +1,28 @@
+$black : #000;
+
+footer {
+ 
+    padding: 20px 2px 2px 5px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: $black;
+    background-color: gainsboro;
+
+    p {
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 900;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+

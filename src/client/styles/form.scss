@@ -1,0 +1,63 @@
+$pink: #f25bb3ef;
+$white: #fff;
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-input {
+  padding: 30px 40px 40px;
+
+  input {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    &[type="submit"] {
+      color: $white;
+      font-weight: bold;
+      background-color: $pink;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+.form-output {
+  padding: 0 40px 140px;
+
+  h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 10px;
+    border-bottom: 1px dotted $white;
+  }
+
+  .results {
+    font-style: italic;
+    padding: 0 10px;
+  }
+  #score,
+  #agreement,
+  #subjectivity,
+  #confidence,
+  #irony,
+  #text {
+      color: block;
+      font-size: 15px;
+   
+  }
+  
+  .result-polarity {
+    text-transform: capitalize;
+  }
+}
